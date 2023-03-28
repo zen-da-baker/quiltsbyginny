@@ -39,6 +39,19 @@ img.center {
     display:block;
     width:50%;
 }
+.cover-image {
+    background-image:url('images/quiltHome.jpg');
+    background-attachment:fixed;
+    background-size:cover;
+}
+.page-button {
+    position:absolute;
+    left:49%;
+    bottom:10%;
+}
+.banner {
+    position:relative;
+}
 
 
 /*General button styling*/
@@ -182,6 +195,7 @@ hr.solid {
     display:flex;
     justify-content:start;
     align-items:center;
+    z-index:1;
 }
     
 .center-header {
