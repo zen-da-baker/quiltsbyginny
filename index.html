@@ -28,8 +28,8 @@
                 
                 <div class="navbar-links">
 
-                    <a href="https://quiltsbyginny.com/index.html" class="btn"><i class="fa fa-home"></i> Home</a>
-                    <a href="#quilts" target="_blank" class="btn"><i class="fa fa-cut"></i> Products</a>
+                    <a href="#home" class="btn"><i class="fa fa-home"></i> Home</a>
+                    <a href="#quilts" class="btn"><i class="fa fa-cut"></i> Products</a>
                     <a href="#contact" class="btn"><i class="fa fa-clone"></i> Contact</a>
 
                 </div>
@@ -41,10 +41,8 @@
                 </div>
 
                 <div class="right-header">
-                    <div>
-                        <a href="https://www.facebook.com/groups/164614630630335" target="_blank">
-                            <button id="facebookGroup" class="btn" ><i class="fa fa-facebook-square"></i> Facebook Group</button>
-                        </a>
+                    <div class="navbar-links">
+                        <a href="https://www.facebook.com/groups/164614630630335" target="_blank" class="btn"><i class="fa fa-facebook-square"></i> Facebook Group </a>
                     </div>
                 </div>
 
@@ -55,21 +53,20 @@
     <!--Padding top of 100px so there is space for the header above-->
     <div class="content">
 
-        <div class="banner"
+        <div id="home" class="banner"
             style="background-image:url('images/quiltHome.jpg');
                     background-attachment:fixed;
                      background-size:cover;
-                     height:100dvh;">
+                     height:100dvh;
+                     margin:auto;">
 
-            <h1 class="center-text" style="padding-top:75px; color:white; -webkit-text-stroke-width:1px; -webkit-text-stroke-color:black; size:200%;">Quilts by Ginny</h1>        
-                    
-                    <div class="center-text">
-                        
-                        
-                        <h2 style="color:white; -webkit-text-stroke-width:1px; -webkit-text-stroke-color:black;">Custom made by Virginia Frazier</h2>
-
-                        
-                    </div>
+            <div class="center-text" style="position:absolute; left:25%; top:25%; background-color:#333; border-radius:25px; opacity:0.75; padding:20px;">
+                <div style="text-align:center; width:100%; margin:auto; left:50vh; opacity:1;">
+                    <h1 style="color:#9BCFEE; -webkit-text-stroke-width:1px; -webkit-text-stroke-color:black;">Quilts by Ginny</h1>
+                            
+                    <h2 style="color:#9BCFEE; -webkit-text-stroke-width:1px; -webkit-text-stroke-color:black;">Custom made by Virginia Frazier</h2>
+                </div>                
+            </div>
 
                     
 
@@ -88,7 +85,7 @@
         <div class="banner" style="background-color:#BFE0F4;">
 
             <!--The content is displayed in three columns-->
-            <h2 class="center-text" id="quilts">Products</h2>
+            <h2 class="center-text" id="quilts" style="padding-top:50px;">Products</h2>
 
                 <div class="flexbox-container">
 
@@ -100,10 +97,12 @@
                             </div>
                         </div>
 
+                        <br>
+
                         <div class="flexbox-item">
                             <div class="center">
 
-                                <img src="images/tshirt 1.jpg" alt="placeholder quilt image" width="300px">
+                                <img src="images/tshirt 1.jpg" alt="tshirt quilt" width="300px">
                                 
                             </div>
                         </div>
@@ -111,7 +110,7 @@
                         <div class="flexbox-item">
                             <div class="center">
                                 
-                                <img src="images/tshirt 2.jpg" alt="placeholder quilt image" width="300px">
+                                <img src="images/tshirt 2.jpg" alt="tshirt quilt" width="300px">
 
                             </div>
                         </div>
@@ -127,10 +126,12 @@
                             </div>
                         </div>
 
+                        <br>
+
                         <div class="flexbox-item">
                             <div class="center">
                                 
-                                <img src="images/purpleCloseUp.jpg" alt="placeholder quilt image" width="300px">
+                                <img src="images/l-quilt 1.jpg" alt="Lounge quilt" width="300px">
 
                             </div>
                         </div>
@@ -138,7 +139,7 @@
                         <div class="flexbox-item">
                             <div class="center">
                                 
-                                <img src="images/purpleCloseUp.jpg" alt="placeholder quilt image" width="300px">
+                                <img src="images/l-quilt 2.jpg" alt="Lounge quilt" width="300px">
 
                             </div>
                         </div>
@@ -154,10 +155,12 @@
                             </div>
                         </div>
 
+                        <br>
+
                         <div class="flexbox-item">
                             <div class="center">
                                 
-                                <img src="images/purpleCloseUp.jpg" alt="placeholder quilt image" width="300px">
+                                <img src="images/babyQuilt 1.jpg" alt="Baby quilt" width="300px">
 
                             </div>
                         </div>
@@ -165,7 +168,7 @@
                         <div class="flexbox-item">
                             <div class="center">
                                 
-                                <img src="images/purpleCloseUp.jpg" alt="placeholder quilt image" width="300px">
+                                <img src="images/babyQuilt 2.jpg" alt="Baby quilt" width="300px">
 
                             </div>
                         </div>
@@ -180,10 +183,12 @@
                             </div>
                         </div>
 
+                        <br>
+
                         <div class="flexbox-item">
                             <div class="center">
                                 
-                                <img src="images/purpleCloseUp.jpg" alt="placeholder quilt image" width="300px">
+                                <img src="images/bedQuilt 1.jpg" alt="Bed quilt" width="300px">
 
                             </div>
                         </div>
@@ -191,14 +196,14 @@
                         <div class="flexbox-item">
                             <div class="center">
                                 
-                                <img src="images/purpleCloseUp.jpg" alt="placeholder quilt image" width="300px">
+                                <img src="images/bedQuilt 2.jpg" alt="Bed quilt" width="300px">
                                 
                             </div>
                         </div>
                     </div>
                 </div>
 
-            <div class="page-button">
+            <div class="page-button" style="position:relative; padding-top:10px;">
                 <a href="#contact">
                     <button>Contact</button>
                 </a>
@@ -210,10 +215,10 @@
             
         <hr class="solid">
 
-        <div class="banner" style="background-color:#F5CDC0;">
+        <div class="banner" style="background-color:#F5CDC0; height:100vh;">
             
             <!--The content is displayed as a long centered row with bolding the exact degree-->
-            <h2 class="center-text" id="contact">Contact</h2>
+            <h2 class="center-text" id="contact" style="padding-top:50px;">Contact</h2>
 
             <h1 class="center-text" style="padding-top:75px;">Get in Touch</h1>
 
