@@ -1,7 +1,3 @@
-* {
-    box-sizing:border-box;
-}
-
 /*Body and paragraph styling below*/
 body {
     background-color: #E4F1F2;
@@ -42,7 +38,7 @@ li {
 img.center {
     margin:auto;
     display:block;
-    width:50%;
+    /* width:50%; */
 }
 .cover-image {
     background-image:url('images/quiltHome.jpg');
@@ -162,12 +158,12 @@ hr.solid {
 }
 
 /*Current Nav Bar*/
-.navbar {
+/* .navbar {
     overflow: hidden;
     background-color: #333;
     border-radius:10px;
     position:fixed;
-    /* height:48px; */
+    height:48px; 
     
     opacity:1;
     left:2%;
@@ -178,7 +174,7 @@ hr.solid {
     justify-content:start;
     align-items:center;
     z-index:1;
-}
+} */
     
 .center-header {
     position:fixed;
@@ -264,12 +260,12 @@ display: block;
     background-color:white;
     border-radius:10px;
 }
-.navbar-links {
+/* .navbar-links {
     margin:0;
     padding:0;
     display:flex;
-}
-@media (max-width:900px) {
+} */
+/* @media (max-width:900px) {
     .navbar {
         flex-direction:column;
         align-items:flex-start;
@@ -311,7 +307,7 @@ display: block;
     .navbar-links.active {
         display:flex;
     }
-}
+} */
 
 /*Footer styling below*/
 footer {
