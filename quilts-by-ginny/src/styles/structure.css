@@ -25,5 +25,10 @@ footer {
 }
 
 .navbar-brand {
-    margin: 1rem;
+    margin: auto 1rem;
+
+}
+
+.nav {
+    align-items: center;
 }

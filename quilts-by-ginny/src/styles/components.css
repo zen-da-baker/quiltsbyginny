@@ -40,7 +40,7 @@ button:active {
 
 .facebook-btn {
     padding: 1rem;
-    margin: 1rem;
+    margin: 0.5rem 2rem;
     background-color: hsl(200, 50%, 30%);
 }
 
