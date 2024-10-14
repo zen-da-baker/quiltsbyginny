@@ -5,6 +5,7 @@ import './styles/structure.css';
 import './styles/typography.css';
 import './styles/scroll.css';
 import './styles/main.css';
+import './styles/contact.css';
 
 import { Body } from './pages/Body.jsx';
 import { Header } from './pages/Header.jsx';
