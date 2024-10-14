@@ -38,6 +38,15 @@ button:active {
     color:black;
 }
 
+.facebook-btn {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: hsl(200, 50%, 30%);
+}
+
 .btn {
-    border-radius: 0.5rem;
+    border: 0.1rem solid black;
+    color: white;
+    border-radius: 0.25rem;
+    text-decoration: none;
 }

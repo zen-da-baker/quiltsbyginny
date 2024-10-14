@@ -1,5 +1,12 @@
 .container {
     display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    background-color: #333;
+    position: fixed;
+    z-index: 2;
 }
 
 /*Footer styling below*/
@@ -15,4 +22,8 @@ footer {
 .right-header {
     position:fixed;
     right:2%;
+}
+
+.navbar-brand {
+    margin: 1rem;
 }

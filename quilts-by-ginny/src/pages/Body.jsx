@@ -71,7 +71,7 @@ export function Body() {
 
                             <div className="flexbox-item">
                                 <div className="center">
-                                    <a href="https://www.facebook.com/groups/164614630630335" target="_Blank">
+                                    <a href="https://www.facebook.com/groups/164614630630335" target="_blank" rel="noreferrer">
                                         <img className="thumbnail" src="images/tshirt 1.jpg" alt="tshirt quilt" width="300px" />
                                     </a>
                                 </div>
@@ -79,7 +79,7 @@ export function Body() {
 
                             <div className="flexbox-item">
                                 <div className="center">
-                                    <a href="https://www.facebook.com/groups/164614630630335" target="_blank">
+                                    <a href="https://www.facebook.com/groups/164614630630335" target="_blank" rel="noreferrer">
                                         <img className="thumbnail" src="images/tshirt 2.jpg" alt="tshirt quilt" width="300px" />
                                     </a>
                                 </div>
@@ -99,7 +99,7 @@ export function Body() {
 
                             <div className="flexbox-item">
                                 <div className="center">
-                                    <a href="https://www.facebook.com/groups/164614630630335" target="_blank">
+                                    <a href="https://www.facebook.com/groups/164614630630335" target="_blank" rel="noreferrer">
                                         <img className="thumbnail" src="images/l-quilt 1.jpg" alt="Lounge quilt" width="300px" /> 
                                     </a>
                                 </div>
@@ -108,7 +108,7 @@ export function Body() {
 
                             <div className="flexbox-item">
                                 <div className="center">
-                                    <a href="https://www.facebook.com/groups/164614630630335" target="_blank">
+                                    <a href="https://www.facebook.com/groups/164614630630335" target="_blank" rel="noreferrer">
                                         <img className="thumbnail" src="images/l-quilt 2.jpg" alt="Lounge quilt" width="300px" />
                                     </a>
                                 </div>
@@ -128,7 +128,7 @@ export function Body() {
 
                             <div className="flexbox-item">
                                 <div className="center">
-                                    <a href="https://www.facebook.com/groups/164614630630335" target="_blank">
+                                    <a href="https://www.facebook.com/groups/164614630630335" target="_blank" rel="noreferrer">
                                         <img className="thumbnail" src="images/babyQuilt 1.jpg" alt="Baby quilt" width="300px" />
                                     </a>
                                 </div>
@@ -136,7 +136,7 @@ export function Body() {
 
                             <div className="flexbox-item">
                                 <div className="center">
-                                    <a href="https://www.facebook.com/groups/164614630630335" target="_blank">
+                                    <a href="https://www.facebook.com/groups/164614630630335" target="_blank" rel="noreferrer">
                                         <img className="thumbnail" src="images/babyQuilt 2.jpg" alt="Baby quilt" width="300px" />
                                     </a>
                                 </div>
@@ -155,7 +155,7 @@ export function Body() {
 
                             <div className="flexbox-item">
                                 <div className="center">
-                                    <a href="https://www.facebook.com/groups/164614630630335" target="_blank">
+                                    <a href="https://www.facebook.com/groups/164614630630335" target="_blank" rel="noreferrer">
                                         <img className="thumbnail" src="images/bedQuilt 3.jpg" alt="Bed quilt" width="300px" />
                                     </a>
                                 </div>
@@ -164,7 +164,11 @@ export function Body() {
 
                             <div className="flexbox-item">
                                 <div className="center">
-                                    <a href="https://www.facebook.com/groups/164614630630335" target="_blank">
+                                    <a href="https://www.facebook.com/groups/164614630630335" 
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+
                                         <img className="thumbnail" src="images/bedQuilt 4.jpg" alt="Bed quilt" width="300px" />
                                     </a>
                                 </div>
