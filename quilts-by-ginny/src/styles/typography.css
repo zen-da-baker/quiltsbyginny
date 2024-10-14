@@ -5,9 +5,13 @@ p {
 h1 {
     font-size:4rem;
     padding: 10px 10px 10px 10px;
+    -webkit-text-stroke-width: "1px";
+    -webkit-text-stroke-color: "black"
 }
 h2 {
     font-size:3rem;
+     -webkit-text-stroke-width: "1px";
+    -webkit-text-stroke-color: "black"
 }
 h3 {
     font-size:2rem;

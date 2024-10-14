@@ -8,7 +8,6 @@ img.center {
     /* width:50%; */
 }
 .cover-image {
-    background-image:url('images/quiltHome.jpg');
     background-attachment:fixed;
     background-size:cover;
 }

@@ -1,8 +1,10 @@
 // Import styles
 import './styles/components.css';
 import './styles/global.css';
-import './styles/struture.css';
+import './styles/structure.css';
 import './styles/typography.css';
+import './styles/scroll.css';
+import './styles/main.css';
 
 import { Body } from './pages/Body.jsx';
 import { Header } from './pages/Header.jsx';
