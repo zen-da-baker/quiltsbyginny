@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+}
+
+/*Footer styling below*/
+footer {
+    background-color: #333;
+}
+
+.center-header {
+    position:fixed;
+    left:46%;
+    font-size:150%;
+}
+.right-header {
+    position:fixed;
+    right:2%;
+}

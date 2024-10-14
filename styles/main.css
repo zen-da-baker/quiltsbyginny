@@ -1,39 +1,6 @@
 /*Body and paragraph styling below*/
-body {
-    background-color: #E4F1F2;
-    font-family:Helvetica, san-serif;
-    margin:0;
-    padding:0;
-}
-p {
-    font-size:1rem;
-    padding-bottom:10px;
-}
-h1 {
-    font-size:4rem;
-    padding: 10px 10px 10px 10px;
-}
-h2 {
-    font-size:3rem;
-}
-h3 {
-    font-size:2rem;
-}
-.center-text {
-    margin:auto;
-    text-align:center;
-    width: 100%;
-    padding: 5px 5px 5px 5px;
-}
-li {
-    text-align:left;
-    padding:5px;
-}
-.left-text {
-    margin:auto;
-    text-align:left;
-    padding: 10px 10px 10px 10px;
-}
+
+
 
 img.center {
     margin:auto;
@@ -45,19 +12,7 @@ img.center {
     background-attachment:fixed;
     background-size:cover;
 }
-.page-button-div {
-    position:absolute;
-    /* left:47.75%; */
-    bottom:10%;
-    margin:auto;
-    width:100%;
-}
-.page-button {
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-    width:6.75%;
-}
+
 .banner {
     position:relative;
     width:100%;
@@ -68,31 +23,7 @@ img {
 
 
 /*General button styling*/
-form {
-    width:50%;
-    padding-bottom:20px;
-}
-button, form {
-    background-color: #333;
-    color:white;
-    padding: 15px 20px;
-    border:none;
-    border-radius:10px;
-    cursor:pointer;
-    font-size:1rem;
-    margin:auto;
-}
-button:hover {
-    background-color:#1A6998;
-}
-button:active {
-    box-shadow: 2px 2px 5px grey;
-    background-color:#92CAEC;
-}
-.modeButtonStyle {
-    background-color: white;
-    color:black;
-}
+
 .dark-mode {
     background-color:black;
     color:white;
@@ -106,19 +37,7 @@ iframe {
     display:block;
 }
 
-/*Scroll wheel*/
-::-webkit-scrollbar {
-    width:15px;
-}
-::-webkit-scrollbar-track {
-    background:#333;
-}
-::-webkit-scrollbar-thumb {
-    background:#888;
-}
-::-webkit-scrollbar-thumb:hover {
-    background:#92CAEC;
-}
+
 
 /*Divider line*/
 hr.solid {
@@ -176,15 +95,6 @@ hr.solid {
     z-index:1;
 } */
     
-.center-header {
-    position:fixed;
-    left:46%;
-    font-size:150%;
-}
-.right-header {
-    position:fixed;
-    right:2%;
-}
 
 .navbar-links a {
 /* float: left; */
@@ -309,44 +219,8 @@ display: block;
     }
 } */
 
-/*Footer styling below*/
-footer {
-    background-color: #333;
-}
-ul.footer {
-    list-style-type: none;
-    overflow:hidden;
-    font-size:15px;
-    float:left;
-    padding:5px;
-    text-align:center;
-}
-ul {
-    list-style-type:circle;
-    color:black;
-    font-size:20px;
-}
-li.footer {
-    float:left;
-    padding:5px;
-}
-li a {
-    display:block;
-    display:inline;
-    float:left;
-    padding:8px;
-    color:white;
-    text-align:center;
-}
-li a:hover {
-    color:#1A6998;
-}
-p a:hover {
-    color:#1A6998;
-}
-a {
-    color:#374F53;
-}
+
+
 
 /*Collapsable header*/
 .collapsible {

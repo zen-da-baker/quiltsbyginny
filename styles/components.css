@@ -1,0 +1,43 @@
+.page-button-div {
+    position:absolute;
+    /* left:47.75%; */
+    bottom:10%;
+    margin:auto;
+    width:100%;
+}
+.page-button {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:6.75%;
+}
+
+form {
+    width:50%;
+    padding-bottom:20px;
+}
+button, form {
+    background-color: #333;
+    color:white;
+    padding: 15px 20px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:1rem;
+    margin:auto;
+}
+button:hover {
+    background-color:#1A6998;
+}
+button:active {
+    box-shadow: 2px 2px 5px grey;
+    background-color:#92CAEC;
+}
+.modeButtonStyle {
+    background-color: white;
+    color:black;
+}
+
+.btn {
+    border-radius: 0.5rem;
+}
