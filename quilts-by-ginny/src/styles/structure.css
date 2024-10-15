@@ -50,3 +50,7 @@ section {
     margin: auto;
     width: auto
 }
+
+.footer {
+    padding: 1rem;
+}

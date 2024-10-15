@@ -1,9 +1,11 @@
 export function Footer() {
     return (
-        <footer>
-            <p className="center-text" style={{color: 'white', paddingBottom: '20px'}}>
-                &copy;<em id="date"></em>2024 by Virginia Frazier
+        <footer className="footer">
+            <p className="center-text">
+                &copy;<em id="date"></em>2024 by Virginia Frazier and Coding Cacti. All Rights Reserved.
             </p>
+
+            <p className="center-text">The Facebook logo is trademarked by its respective owner.</p>
         </footer>  
     )
 }
