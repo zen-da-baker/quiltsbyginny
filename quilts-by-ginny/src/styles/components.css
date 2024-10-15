@@ -50,3 +50,8 @@ button:active {
     border-radius: 0.25rem;
     text-decoration: none;
 }
+
+.card {
+    border: 0.1rem solid black;
+    background-color: hsl(10, 20%, 90%);
+}

@@ -1,3 +1,9 @@
+// Import components
+import { Card } from '../components/Card.jsx';
+
+// Import images data
+import { tshirt, lounge } from './images.js';
+
 export function Body() {
     return (
         <div class="content">
@@ -63,27 +69,17 @@ export function Body() {
 
                         <div className="flexbox-container" style={{flexDirection: "column"}}>
 
-                            <div className="flexbox-item">
+                            <div className="flexbox-item card">
                                 <div className="center-text">
                                     <h3>T-Shirt Quilts</h3>
                                 </div>
                             </div>
 
-                            <div className="flexbox-item">
-                                <div className="center">
-                                    <a href="https://www.facebook.com/groups/164614630630335" target="_blank" rel="noreferrer">
-                                        <img className="thumbnail" src="images/tshirt 1.jpg" alt="tshirt quilt" width="300px" />
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div className="flexbox-item">
-                                <div className="center">
-                                    <a href="https://www.facebook.com/groups/164614630630335" target="_blank" rel="noreferrer">
-                                        <img className="thumbnail" src="images/tshirt 2.jpg" alt="tshirt quilt" width="300px" />
-                                    </a>
-                                </div>
-                            </div>
+                            {
+                                tshirt.map((item) => {
+                                    return <Card src={item.src} alt={item.alt} />
+                                })
+                            }
                     
                         </div>
 
@@ -97,22 +93,11 @@ export function Body() {
                             </div>
 
 
-                            <div className="flexbox-item">
-                                <div className="center">
-                                    <a href="https://www.facebook.com/groups/164614630630335" target="_blank" rel="noreferrer">
-                                        <img className="thumbnail" src="images/l-quilt 1.jpg" alt="Lounge quilt" width="300px" /> 
-                                    </a>
-                                </div>
-                            </div>
-
-
-                            <div className="flexbox-item">
-                                <div className="center">
-                                    <a href="https://www.facebook.com/groups/164614630630335" target="_blank" rel="noreferrer">
-                                        <img className="thumbnail" src="images/l-quilt 2.jpg" alt="Lounge quilt" width="300px" />
-                                    </a>
-                                </div>
-                            </div>
+                            {
+                                lounge.map((item) => {
+                                    return <Card src={item.src} alt={item.alt} />
+                                })
+                            }
                     
                         </div>
 
