@@ -69,7 +69,7 @@ export function Body() {
 
                         <div className="flexbox-container" style={{flexDirection: "column"}}>
 
-                            <div className="flexbox-item card">
+                            <div className="flexbox-item">
                                 <div className="center-text">
                                     <h3>T-Shirt Quilts</h3>
                                 </div>
