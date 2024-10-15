@@ -41,3 +41,12 @@ footer {
 section {
     margin: 1rem;
 }
+
+#home {
+    background-image: url('../../public/images/quiltHome.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100dvh;
+    margin: auto;
+    width: auto
+}

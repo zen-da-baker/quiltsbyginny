@@ -40,8 +40,8 @@ export function Header() {
                         role="button" 
                         style={{borderRadius: '20px'}}
                     >
-                            <i className="fa fa-facebook-square"></i> 
-                            Facebook Group 
+                        <img src="../images/2023_Facebook_icon.svg" alt="Facebook icon" width="30px" />
+                        <span className="facebook-group">Join the Facebook Group</span>
                     </a>
                     
                         

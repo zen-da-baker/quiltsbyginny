@@ -2,21 +2,13 @@
 import { Card } from '../components/Card.jsx';
 
 // Import images data
-import { tshirt, lounge } from './images.js';
+import { tshirt, lounge, babyQuilts, bedQuilts } from './images.js';
 
 export function Body() {
     return (
         <div class="content">
 
-            <div id="home" className="banner"
-                style={{
-                        backgroundImage:"url('images/quiltHome.jpg')",
-                        backgroundAttachment: "fixed",
-                        backgroundSize: "cover",
-                        height: "100dvh",
-                        margin: "auto",
-                        width: "auto"
-                        }}>
+            <div id="home" className="banner">
 
                 <div className="center-text" 
                     style={{
@@ -25,7 +17,7 @@ export function Body() {
                         top: "25%", 
                         backgroundColor: "#333", 
                         borderRadius: "25px", 
-                        opacity: 0.75,
+                        opacity: 1,
                         padding: "20px",
                         width: "50%"
                     }}>
@@ -111,21 +103,11 @@ export function Body() {
                             </div>
 
 
-                            <div className="flexbox-item">
-                                <div className="center">
-                                    <a href="https://www.facebook.com/groups/164614630630335" target="_blank" rel="noreferrer">
-                                        <img className="thumbnail" src="images/babyQuilt 1.jpg" alt="Baby quilt" width="300px" />
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div className="flexbox-item">
-                                <div className="center">
-                                    <a href="https://www.facebook.com/groups/164614630630335" target="_blank" rel="noreferrer">
-                                        <img className="thumbnail" src="images/babyQuilt 2.jpg" alt="Baby quilt" width="300px" />
-                                    </a>
-                                </div>
-                            </div>
+                            {
+                                babyQuilts.map((item) => {
+                                    return <Card src={item.src} alt={item.alt} />
+                                })
+                            }
                         
                         </div>
 
@@ -138,26 +120,11 @@ export function Body() {
                             </div>
 
 
-                            <div className="flexbox-item">
-                                <div className="center">
-                                    <a href="https://www.facebook.com/groups/164614630630335" target="_blank" rel="noreferrer">
-                                        <img className="thumbnail" src="images/bedQuilt 3.jpg" alt="Bed quilt" width="300px" />
-                                    </a>
-                                </div>
-                            </div>
-
-
-                            <div className="flexbox-item">
-                                <div className="center">
-                                    <a href="https://www.facebook.com/groups/164614630630335" 
-                                        target="_blank"
-                                        rel="noreferrer"
-                                    >
-
-                                        <img className="thumbnail" src="images/bedQuilt 4.jpg" alt="Bed quilt" width="300px" />
-                                    </a>
-                                </div>
-                            </div>
+                            {
+                                bedQuilts.map((item) => {
+                                    return <Card src={item.src} alt={item.alt} />
+                                })
+                            }
                         </div>
                     </div>
 

@@ -77,3 +77,12 @@ a {
     text-decoration: none;
     list-style: none;
 }
+
+.facebook-btn {
+    display: flex;
+    flex-direction: row;
+}
+
+.facebook-group {
+    margin: auto 0.5rem;
+}
