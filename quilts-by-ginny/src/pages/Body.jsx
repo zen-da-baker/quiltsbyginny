@@ -5,6 +5,8 @@ import { Card } from '../components/Card.jsx';
 import { tshirt, lounge, babyQuilts, bedQuilts } from './images.js';
 
 export function Body() {
+
+    
     return (
         <div class="content">
 
