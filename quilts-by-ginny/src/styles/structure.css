@@ -1,17 +1,23 @@
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .header {
-    background-color: #333;
+    background-color: hsl(200, 50%, 20%);
     position: fixed;
     z-index: 2;
+    height: 5rem;
+}
+
+form {
+    background-color: hsl(200, 50%, 20%);
 }
 
 /*Footer styling below*/
 footer {
-    background-color: #333;
+    background-color: hsl(200, 50%, 20%);
 }
 
 .center-header {

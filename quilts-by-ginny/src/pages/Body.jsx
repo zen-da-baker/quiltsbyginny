@@ -17,7 +17,7 @@ export function Body() {
                         position: "absolute", 
                         left: "25%", 
                         top: "25%", 
-                        backgroundColor: "#333", 
+                        backgroundColor: "hsl(200, 50%, 20%)", 
                         borderRadius: "25px", 
                         opacity: 1,
                         padding: "20px",
@@ -34,7 +34,7 @@ export function Body() {
                         }}>
 
                         <h1 style={{
-                            color: "#9BCFEE",
+                            color: "hsl(200, 70%, 80%)",
                         }}>Quilts by Ginny</h1>
                                 
                         <h2 style={{color: "#9BCFEE"}}>Custom made by Virginia Frazier</h2>
@@ -151,16 +151,16 @@ export function Body() {
                 <div className="center-text">
                     <div>
                         <form action="https://formspree.io/f/mvonwaag" method="POST">
-                            <label htmlFor="Name"></label>
-                            <input type="text" name="Name" placeholder="Name" /><br/>
+                            <label htmlFor="Name">Name</label>
+                            <input type="text" name="Name" placeholder="Name" className="input" /><br/>
 
-                            <label htmlFor="Email"></label>
+                            <label htmlFor="Email">Email</label>
                             <input type="email" name="Email" placeholder="Email"/><br/>
 
-                            <label htmlFor="Message"></label>
+                            <label htmlFor="Message">Message</label>
                             <textarea type="message" name="Message" style={{height: "200px"}} placeholder="Message"></textarea>
 
-                            <button type="submit" className="btn">Send</button>
+                            <button type="submit" className="btn submit">Send</button>
                         </form>
                     </div>
                 </div>
