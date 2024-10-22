@@ -1,0 +1,9 @@
+@media only screen and (max-width: 1000px) {
+    form {
+        width: 80%;
+    }
+
+    .nav-tabs {
+        display: none;
+    }
+}
