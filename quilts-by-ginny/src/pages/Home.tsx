@@ -1,3 +1,6 @@
+// Import react
+import React from 'react';
+
 export function Home() {
     return (
         <div id="home" className="banner">
@@ -14,7 +17,7 @@ export function Home() {
                 </div>
 
                 <div className="page-button-div">
-                    <a href="#quilts" class="page-button btn">
+                    <a href="#quilts" className="page-button btn">
                         <button id="quilts-button">Quilts</button>
                     </a>
                 </div>

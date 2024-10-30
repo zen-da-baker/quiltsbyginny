@@ -1,3 +1,6 @@
+// Import react
+import React from 'react';
+
 export function Contact() {
     return (
         <div className="banner" style={{backgroundColor: "#F5CDC0", height: "100vh"}}>
@@ -16,7 +19,7 @@ export function Contact() {
                             <input type="email" name="Email" placeholder="Email"/><br/>
 
                             <label htmlFor="Message">Message</label>
-                            <textarea type="message" name="Message" style={{height: "200px"}} placeholder="Message"></textarea>
+                            <textarea id="message" name="Message" style={{height: "200px"}} placeholder="Message"></textarea>
 
                             <button type="submit" className="btn submit">Send</button>
                         </form>

@@ -1,3 +1,6 @@
+// Import react
+import React from 'react';
+
 // Import images data
 import { images } from './images.js';
 

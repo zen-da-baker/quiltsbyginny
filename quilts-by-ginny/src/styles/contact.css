@@ -1,5 +1,5 @@
 /*Contact form styling*/
-input[type=text], input[type=email], select, textarea[type=message] {
+input[type=text], input[type=email], select, textarea[type=message], #message {
     width: 100%;
     padding:12px;
     border:1px solid #ccc;

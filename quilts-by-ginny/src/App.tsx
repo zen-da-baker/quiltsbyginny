@@ -1,3 +1,6 @@
+// Import react
+import React from 'react';
+
 // Import styles
 import './styles/components.css';
 import './styles/global.css';
@@ -8,9 +11,10 @@ import './styles/main.css';
 import './styles/contact.css';
 import './styles/responsive.css';
 
-import { Body } from './pages/Body.jsx';
-import { Header } from './pages/Header.jsx';
-import { Footer } from './pages/Footer.jsx';
+// Import page components
+import { Body } from './pages/Body.tsx';
+import { Header } from './pages/Header.tsx';
+import { Footer } from './pages/Footer.tsx';
 
 function App() {
 

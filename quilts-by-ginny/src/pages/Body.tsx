@@ -1,13 +1,16 @@
+// Import react
+import React from 'react';
+
 // Import pages
-import { Home } from './Home';
-import { Products } from './Products';
-import { Contact } from './Contact';
+import { Home } from './Home.tsx';
+import { Products } from './Products.tsx';
+import { Contact } from './Contact.tsx';
 
 export function Body() {
 
     
     return (
-        <main class="content">
+        <main className="content">
 
             <Home />
 
