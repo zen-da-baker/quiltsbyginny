@@ -1,5 +1,5 @@
 // Import images data
-import { tshirt, lounge, babyQuilts, bedQuilts } from './images.js';
+import { images } from './images.js';
 
 // Import components
 import { Card } from '../components/Card.jsx';
@@ -12,72 +12,20 @@ export function Products() {
 
                     <div className="flexbox-container">
 
-                        <div className="flexbox-container" style={{flexDirection: "column"}}>
+                        <div className="flexbox-container" style={{flexDirection: "row"}}>
 
                             <div className="flexbox-item">
                                 <div className="center-text">
-                                    <h3>T-Shirt Quilts</h3>
+                                    <h3>T-Shirt Quilts, Lounge Quilts, Baby Quilts, Ornaments, Hotpads, and more!</h3>
                                 </div>
                             </div>
 
                             {
-                                tshirt.map((item) => {
+                                images.map((item) => {
                                     return <Card src={item.src} alt={item.alt} />
                                 })
                             }
                     
-                        </div>
-
-                        <div className="flexbox-container" style={{flexDirection: "column"}}>
-
-                            
-                            <div className="flexbox-item">
-                                <div className="center-text">
-                                    <h3>Lounge Quilts</h3>
-                                </div>
-                            </div>
-
-
-                            {
-                                lounge.map((item) => {
-                                    return <Card src={item.src} alt={item.alt} />
-                                })
-                            }
-                    
-                        </div>
-
-                        <div className="flexbox-container" style={{flexDirection: "column"}}>
-                            
-                            
-                            <div className="flexbox-item">
-                                <div className="center-text">
-                                    <h3>Baby Quilts</h3>
-                                </div>
-                            </div>
-
-
-                            {
-                                babyQuilts.map((item) => {
-                                    return <Card src={item.src} alt={item.alt} />
-                                })
-                            }
-                        
-                        </div>
-
-                        <div className="flexbox-container" style={{flexDirection: "column"}}>
-
-                            <div className="flexbox-item">
-                                <div className="center-text">
-                                    <h3>Bed Quilts</h3>
-                                </div>
-                            </div>
-
-
-                            {
-                                bedQuilts.map((item) => {
-                                    return <Card src={item.src} alt={item.alt} />
-                                })
-                            }
                         </div>
                     </div>
 
