@@ -6,4 +6,13 @@
     .nav-tabs {
         display: none;
     }
+
+    #quilt-gallery {
+        display: flex;
+        flex-direction: row;
+    
+        background-color: #BFE0F4;
+        width: 100%;
+    }
+    
 }

@@ -12,13 +12,14 @@ export function Products() {
 
                     <div className="flexbox-container">
 
-                        <div className="flexbox-container" style={{flexDirection: "row"}}>
-
-                            <div className="flexbox-item">
-                                <div className="center-text">
-                                    <h3>T-Shirt Quilts, Lounge Quilts, Baby Quilts, Ornaments, Hotpads, and more!</h3>
-                                </div>
+                        
+                        <div className="flexbox-item">
+                            <div className="center-text">
+                                <h3>T-Shirt Quilts, Lounge Quilts, Baby Quilts, Ornaments, Hotpads, and more!</h3>
                             </div>
+                        </div>
+
+                        <div className="flexbox-container" id="quilt-gallery">
 
                             {
                                 images.map((item) => {
@@ -31,7 +32,7 @@ export function Products() {
 
 
                 <div className="page-button-div" style={{position: "relative"}}>
-                    <a href="#contact" className="page-button">
+                    <a href="#contact" className="page-button btn">
                         <button>Contact</button>
                     </a>
                 </div>

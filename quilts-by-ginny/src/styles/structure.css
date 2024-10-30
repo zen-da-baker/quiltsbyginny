@@ -62,3 +62,13 @@ section {
 .footer {
     padding: 1rem;
 }
+
+#quilt-gallery {
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+
+    width: 80%;
+
+    margin: 2rem 0;
+}

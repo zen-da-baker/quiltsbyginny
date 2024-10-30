@@ -6,10 +6,16 @@
     width:100%;
 }
 .page-button {
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-    width:6.75%;
+    width: 6.75%;
+
+    position: relative;
+    bottom: 1rem;
+    left: 45vw;
+}
+
+#quilts-button {
+    background-color: hsl(200, 50%, 80%);
+    color: black;
 }
 
 form {
@@ -51,7 +57,6 @@ button:active {
 }
 
 .btn {
-    border: 0.1rem solid black;
     color: white;
     border-radius: 0.25rem;
     text-decoration: none;

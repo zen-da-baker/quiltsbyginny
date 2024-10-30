@@ -14,8 +14,8 @@ export function Home() {
                 </div>
 
                 <div className="page-button-div">
-                    <a href="#quilts" class="page-button">
-                        <button>Quilts</button>
+                    <a href="#quilts" class="page-button btn">
+                        <button id="quilts-button">Quilts</button>
                     </a>
                 </div>
                     
