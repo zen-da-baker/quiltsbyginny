@@ -2,8 +2,8 @@
 import React from 'react';
 
 // Import pages
-import { Home } from './Home.tsx';
-import { Products } from './Products.tsx';
+import { Home } from './Home.jsx';
+import { Products } from './Products.jsx';
 import { Contact } from './Contact.jsx';
 
 export function Body() {
