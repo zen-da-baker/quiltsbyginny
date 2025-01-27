@@ -4,7 +4,7 @@ import React from 'react';
 // Import pages
 import { Home } from './Home.tsx';
 import { Products } from './Products.tsx';
-import { Contact } from './Contact.tsx';
+import { Contact } from './Contact.jsx';
 
 export function Body() {
 

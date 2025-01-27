@@ -12,9 +12,9 @@ import './styles/contact.css';
 import './styles/responsive.css';
 
 // Import page components
-import { Body } from './pages/Body.tsx';
-import { Header } from './pages/Header.tsx';
-import { Footer } from './pages/Footer.tsx';
+import { Body } from './pages/Body.jsx';
+import { Header } from './pages/Header.jsx';
+import { Footer } from './pages/Footer.jsx';
 
 function App() {
 
