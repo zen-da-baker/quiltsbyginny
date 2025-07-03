@@ -10,7 +10,7 @@ input[type=text], input[type=email], select, textarea[type=message], #message {
     resize:vertical;
     font-family:"Open Sans"
 }
-button[type=submit] {
+.submit, button[type=submit] {
     background-color: #04AA6D;
     color:white;
     padding: 12px 20px;

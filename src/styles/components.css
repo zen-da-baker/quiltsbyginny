@@ -18,11 +18,12 @@
     color: black;
 }
 
-form {
-    width:50%;
+form, .form {
+    width: 75vw;
     padding-bottom:20px;
 }
-button, form {
+
+button, form, .form {
     background-color: hsl(200, 50%, 20%);
     color:white;
     padding: 15px 20px;
@@ -32,6 +33,7 @@ button, form {
     font-size:1rem;
     margin:auto;
 }
+
 button:hover {
     background-color:#1A6998;
 }

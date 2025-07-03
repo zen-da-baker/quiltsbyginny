@@ -9,9 +9,60 @@ export function Contact() {
 
     const [message, setMessage] = useState<string>("");
 
-    function sendMessage() {
+    function handleName(event: any) {
 
-        
+        setName(event.target.value);
+
+    }
+
+    function handleEmail(event: any) {
+
+        setEmail(event.target.value);
+
+    }
+
+    function handleMessage(event: any) {
+
+        setMessage(event.target.value);
+
+    }
+
+    async function sendMessage() {
+
+        console.log(name, email, message);
+
+        if (name.length > 0 && email.length > 0 && message.length > 0) {
+
+            const messageBody: any = {
+                name, email, message
+            }
+
+            const jsonMessageBody: string = JSON.stringify(messageBody);
+
+            const messageAPICall: any = {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: jsonMessageBody
+            }
+
+            const initialResponse = await fetch("https://formspree.io/f/mvonwaag", messageAPICall);
+
+            console.log(initialResponse);
+
+            if (initialResponse.ok) {
+
+                setName("");
+
+                setEmail("");
+                
+                setMessage("");
+
+            }
+
+        }
+
     }
 
     return (
@@ -21,6 +72,33 @@ export function Contact() {
 
                 <h3 className="center-text" style={{paddingTop: "75px"}}>Get in Touch</h3>
 
+                <div className="form">
+
+                    <label htmlFor="Name">Name</label>
+                    <input type="text" name="Name" placeholder="Name..." className="input" value={ name } onChange={ handleName } />
+                    
+                    <br/>
+
+                    <label htmlFor="Email">Email</label>
+                    <input type="email" name="Email" placeholder="Email..." value={ email } onChange={ handleEmail } />
+                    
+                    <br/>
+
+                    <label htmlFor="Message">Message</label>
+                    <textarea id="message" name="Message" style={{height: "200px"}} placeholder="Message..." defaultValue={ message } onChange={ handleMessage } >
+
+
+                    </textarea>
+
+                    <button className="btn submit" onClick={ sendMessage }>Send</button>
+
+                </div>
+
+                
+            </div>
+    )
+
+    /*
                 <div>
                     <div>
                         <form action="https://formspree.io/f/mvonwaag" method="POST">
@@ -37,6 +115,5 @@ export function Contact() {
                         </form>
                     </div>
                 </div>
-            </div>
-    )
+    */
 }
