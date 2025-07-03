@@ -3,6 +3,15 @@ import React, { useState } from 'react';
 
 export function Contact() {
 
+    /*
+        Rather than user the defaul form HTML element provided by Formspree, I choose to create my own
+        custom form using React state for management of the page and to check if data was entered into the 
+        input elements. If data is available in all input fields, the POST API call is made to the form API.
+        The form HTML element is actually a REST API that I can leverage for a more precise execution of the 
+        message system.
+    
+    */
+
     const [name, setName] = useState<string>("");
 
     const [email, setEmail] = useState<string>("");
