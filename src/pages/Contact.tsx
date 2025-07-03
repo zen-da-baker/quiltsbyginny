@@ -1,7 +1,19 @@
 // Import react
-import React from 'react';
+import React, { useState } from 'react';
 
 export function Contact() {
+
+    const [name, setName] = useState<string>("");
+
+    const [email, setEmail] = useState<string>("");
+
+    const [message, setMessage] = useState<string>("");
+
+    function sendMessage() {
+
+        
+    }
+
     return (
         <div className="banner" style={{backgroundColor: "#F5CDC0", height: "100vh"}}>
                 
