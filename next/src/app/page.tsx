@@ -7,6 +7,7 @@ import './styles/scroll.css';
 import './styles/main.css';
 import './styles/contact.css';
 import './styles/responsive.css';
+import "./styles/index.css";
 
 // Import page components
 import { Body } from './page-components/Body.jsx';
