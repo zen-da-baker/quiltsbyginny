@@ -51,7 +51,7 @@ section {
 }
 
 #home {
-    background-image: url('../../public/images/quiltHome.jpg');
+    background-image: url('../../../public/images/quiltHome.jpg');
     background-attachment: scroll;
     background-size: cover;
     height: 100vh;

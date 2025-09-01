@@ -22,8 +22,15 @@ export function Products() {
                         <div className="flexbox-container" id="quilt-gallery">
 
                             {
-                                images.map((item) => {
-                                    return <Card src={item.src} alt={item.alt} />
+                                images.map((item, index: number) => {
+
+                                    return (
+                                        <div key={ index }>
+
+                                            <Card src={ item.src } alt={ item.alt } />
+
+                                        </div>
+                                    )
                                 })
                             }
                     
