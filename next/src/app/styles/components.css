@@ -1,0 +1,90 @@
+.page-button-div {
+    position:absolute;
+    /* left:47.75%; */
+    bottom:10%;
+    margin:auto;
+    width:100%;
+}
+.page-button {
+    width: 6.75%;
+
+    position: relative;
+    bottom: 1rem;
+    left: 45vw;
+}
+
+#quilts-button {
+    background-color: hsl(200, 50%, 80%);
+    color: black;
+}
+
+form, .form {
+    width: 75vw;
+    padding-bottom:20px;
+}
+
+button, form, .form {
+    background-color: hsl(200, 50%, 20%);
+    color:white;
+    padding: 15px 20px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:1rem;
+    margin:auto;
+}
+
+button:hover {
+    background-color:#1A6998;
+}
+button:active {
+    box-shadow: 2px 2px 5px grey;
+    background-color:#92CAEC;
+}
+.modeButtonStyle {
+    background-color: white;
+    color:black;
+}
+
+.submit {
+    background-color: hsl(150, 50%, 90%);
+    color: black;
+}
+
+.facebook-btn {
+    padding: 0.5rem;
+    margin: 0.5rem 2rem;
+    background-color: hsl(200, 50%, 90%);
+    color: black;
+}
+
+.btn {
+    color: white;
+    border-radius: 0.25rem;
+    text-decoration: none;
+}
+
+.card {
+    border: 0.1rem solid black;
+    background-color: hsl(10, 20%, 90%);
+    width: 20rem;
+    padding: 0.75rem;
+}
+
+.widget {
+    position: relative;
+    top: 25%;
+    background-color: hsl(200, 50%, 20%); 
+    border-radius: 2rem; 
+    opacity: 1;
+    padding: 1rem;
+    margin: auto;
+    width: 75%;
+}
+
+.widget-card {
+    text-align: center;
+    width: 75%; 
+    margin: auto; 
+    opacity: 1;
+}

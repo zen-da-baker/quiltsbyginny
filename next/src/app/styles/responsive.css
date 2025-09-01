@@ -1,0 +1,18 @@
+@media only screen and (max-width: 1000px) {
+    form {
+        width: 80%;
+    }
+
+    .nav-tabs {
+        display: none;
+    }
+
+    #quilt-gallery {
+        display: flex;
+        flex-direction: row;
+    
+        background-color: #BFE0F4;
+        width: 100%;
+    }
+    
+}

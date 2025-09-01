@@ -1,0 +1,103 @@
+p {
+    font-size:1rem;
+    padding-bottom:10px;
+}
+h1 {
+    font-size:4rem;
+    padding: 10px 10px 10px 10px;
+    -webkit-text-stroke-width: "1px";
+    -webkit-text-stroke-color: "black"
+}
+h2 {
+    font-size:3rem;
+     -webkit-text-stroke-width: "1px";
+    -webkit-text-stroke-color: "black"
+}
+h3 {
+    font-size:2rem;
+}
+
+.title {
+    color: hsl(200, 70%, 80%);
+}
+
+.subtitle {
+    color: #9BCFEE;
+}
+
+.input {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center-text {
+    text-align: center;
+}
+li {
+    text-align:left;
+    padding:5px;
+}
+.left-text {
+    margin:auto;
+    text-align:left;
+    padding: 10px 10px 10px 10px;
+}
+
+ul.footer {
+    list-style-type: none;
+    overflow:hidden;
+    font-size:15px;
+    float:left;
+    padding:5px;
+    text-align:center;
+}
+ul {
+    list-style-type:circle;
+    color:black;
+    font-size:20px;
+}
+li.footer {
+    float:left;
+    padding:5px;
+}
+li a {
+    display:block;
+    display:inline;
+    float:left;
+    padding:8px;
+    color:white;
+    text-align:center;
+}
+li a:hover {
+    color: hsl(200, 90%, 80%);
+}
+p a:hover {
+    color: hsl(200, 90%, 90%);
+}
+a {
+    color:#374F53;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.nav-item {
+    text-decoration: none;
+    list-style: none;
+}
+
+.facebook-btn {
+    display: flex;
+    flex-direction: row;
+}
+
+.facebook-group {
+    color: hsl(200, 50%, 20%);
+    margin: auto 0.5rem;
+}
+
+.footer {
+    color: white;
+}

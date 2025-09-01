@@ -1,6 +1,3 @@
-// Import react
-import React from 'react';
-
 // Import styles
 import './styles/components.css';
 import './styles/global.css';

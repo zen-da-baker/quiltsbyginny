@@ -1,3 +1,5 @@
+"use client"
+
 // Import react
 import { useState } from 'react';
 

@@ -4,7 +4,6 @@ import { Products } from './Products.jsx';
 import { Contact } from './Contact.tsx';
 
 export function Body() {
-
     
     return (
         <main className="content">
