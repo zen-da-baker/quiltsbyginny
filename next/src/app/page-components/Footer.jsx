@@ -10,7 +10,7 @@ export function Footer() {
         <footer className="footer">
 
             <p className="center-text">
-                Website designed by <image src={ icon.src } height={ 100 } width={ 100 } alt="Orange fruit" /> ByteSized Crew
+                Website designed by <img src={ icon.src } height={ 20 } width={ 20 } alt="Orange fruit" /> <span id="bytesized">ByteSized Crew</span>
             </p>
 
             <p className="center-text">
