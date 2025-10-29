@@ -16,6 +16,18 @@ import { Footer } from './page-components/Footer.jsx';
 
 export default function Home() {
 
+  async function viewCount() {
+
+    const response = await fetch("https://api.bytesizedcrew.com/quilts");
+
+    const parsedResponse = await response.json();
+
+    console.log( parsedResponse.msg );
+
+  }
+
+  viewCount();
+
   return (
     <div>
 
